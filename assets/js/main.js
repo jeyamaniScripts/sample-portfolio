@@ -136,8 +136,8 @@ const sr = ScrollReveal({
     // reset: true // Animations repeat
  })
 
- sr.reveal(`.home__perfil, .about__image, .contact__mail`, {origin: 'right'})
- sr.reveal(`.home__name, .home__info, 
+ sr.reveal(`.home__perfil,.about__data, .contact__mail,.skill__content2,.contact__content1`, {origin: 'right'})
+ sr.reveal(`.home__name, .home__info, .about__img,
             .about__container .section__title-1, .about__info, 
-            .contact__social, .contact__data`, {origin: 'left'})
+            .contact__social, .contact__data,.skill__content1`, {origin: 'left'})
  sr.reveal(`.services__card, .projects__card`, {interval: 100})
